@@ -20,7 +20,8 @@ Upload the files outside the `mytcg` directory to your TCG directory.
 
 #### profile.php
 Add the following in place of the current location of your tradepost:
-````<?php if($row[tradeform]=="no") {
+```
+<?php if($row[tradeform]=="no") {
 			echo ""; }
 		else {
 	?>
@@ -37,4 +38,5 @@ Add the following in place of the current location of your tradepost:
 	<tr><td>&nbsp;</td><td><input type="submit" name="submit" value=" Trade! " /></td></tr>
 	</table>
 	</form>
-<?php } ?>````
+<?php } ?>
+```
