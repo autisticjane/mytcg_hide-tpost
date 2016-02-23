@@ -1,6 +1,8 @@
 # mytcg_hide-tpost
 Allow members to hide the trade post form from their TCG profile.
 
+This is in development.
+
 ## Requirements
 - MyTCG
 
