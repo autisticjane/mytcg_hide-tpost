@@ -21,7 +21,7 @@ Upload the files outside the `mytcg` directory to your TCG directory.
 #### profile.php
 Add the following in place of the current location of your tradepost:
 ```
-<?php if($row[tradeform]=="no") {
+<?php if($row[tpost]=="no") {
 			echo ""; }
 		else {
 	?>
