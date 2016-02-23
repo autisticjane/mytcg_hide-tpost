@@ -28,7 +28,7 @@ Add the following in place of the current location of your tradepost:
 	<h2>Trade</h2>
 	<form method="post" action="email.php?id=<?php echo "$id"; ?>">
 	<input type="hidden" name="id" value="<?php echo "$row[id]"; ?>" />
-	<table width="100%" class="wildthing" align="center">
+	<table width="100%" align="center">
 	<tr><td>Name:</td><td><input type="text" name="name" value="" /></td></tr>
 	<tr><td>Email:</td><td><input type="text" name="email" value="" /></td></tr>
 	<tr><td>Trade Post:</td><td><input type="text" name="url" value="http://" /></td></tr>
